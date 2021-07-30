@@ -1,0 +1,52 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "this app will code on vanilla js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/railbakhitov/excel-vanillajs.git"
+  },
+  "keywords": [
+    "excel",
+    "vanilla",
+    "js",
+    "javascript",
+    "git"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "author": "Rail <rail.bakhitov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/railbakhitov/excel-vanillajs/issues"
+  },
+  "homepage": "https://github.com/railbakhitov/excel-vanillajs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "normalize.css": "^8.0.1"
+  }
+}
